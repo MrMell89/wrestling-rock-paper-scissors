@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+
+        <style>
+            /* Styling for the splash screen */
+            #splash-screen {
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background-color: blue;
+              z-index: 9999;
+              color: black;
+              text-align: center;
+              line-height: 80vh;
+              font-size: 25px;
+            }
+      
+        </style>
+       
+    </head>
+    <body>
+        <div id="splash-screen" style="display:block">
+            <h1 class="fade-in">S**T Graphics Games Presents.......</h1>
+        </div>
+
+        <div id="start-screen" class="screen">
+            <div class="image=container">
+            <div class="startImage"></div> 
+        <button id="startButton" ; onclick="startGame()" ; > Wooooo! </button>
+            </div>
+        </div>
+    
+        <div id="theGame" class="theGame" style="display:none;">
+            <div class="container">
+                <span></span>
+                <span class="you"></span>
+                <span class="wrestler"></span>
+            </div>
+            <div class="container">
+                <span class="big rock-paper-scissors"><h2>Your Choice:<span id="user-choice"></span></h2>
+                <h2>Opponents Choice: <span id="computer-choice"></span></h2>
+                <h2>Result:<span id="result"></span></h2>
+                <button id="rock" class="game-button">rock</button>
+                <button id="paper" class="game-button">paper</button>
+                <button id="scissors" class="game-button">scissors</button>
+                <button id="next-match">Click for next match </button></span>
+                <span class="vs"></span>
+                
+            </div>
+            <div class="container">
+                <span></span>
+                <span class="taunt"></span>
+                <span class="opponent"></span>
+            </div>
+            <div id="scoreContainer">Score: 0</div>
+        </div>
+
+    
+
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>
+
+  
+  
+  
+  
