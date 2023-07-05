@@ -19,7 +19,7 @@ const lastScreenDiv = document.getElementById('lastScreen');
 const thatsItElement = document.getElementById('thatsIt');
 
 const images = [
-    'mole.png',
+    'Mole.png',
     'Wrestler1.png',
     'Wrestler2.png',
     'Wrestler3.png',
