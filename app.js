@@ -405,8 +405,8 @@ function showRefereeVerdict() {
   var verdictDiv2 = document.getElementById('refereeVerdict2');
 
   if (refereeImage.src.includes('Paul_Bearer.png')) {
-      verdictDiv2.innerHTML = '<img src="bearer-verdict.png" alt="Bearer Verdict">';
-      playAudio('oh-Yes!.mp3');
+      verdictDiv2.innerHTML = '<img src="Bearer-Verdict.png" alt="Bearer Verdict">';
+      playAudio('Oh-Yes!.mp3');
       setTimeout(function() {
         var refereeVerdict = document.getElementById('refereeVerdict');
         refereeVerdict.style.display = 'none';
@@ -434,7 +434,7 @@ setTimeout(function() {
 
 
       } else if (refereeImage.src.includes('Jesse_Ventura.png')) {
-      verdictDiv2.innerHTML = '<img src="ventura-verdict.png" alt="Ventura Verdict">';
+      verdictDiv2.innerHTML = '<img src="Ventura-Verdict.png" alt="Ventura Verdict">';
       setTimeout(function() {
         // Get the button element
         var button = document.getElementById('screwed');
